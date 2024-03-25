@@ -3,14 +3,10 @@ This repository contains a Python package and a Jupyter notebook designed to wor
 The primary goal is to facilitate ECG data handling and classification of ECG signals. The ecg_data_handler.py module provides essential utilities for reading, plotting, and extracting features from ECG records, 
 while the 12LeadECGClassificationModel.ipynb notebook uses 4 fifferent classification model for ECG signals:
 
-Temporal Convolutional Networks (TCN)
-Utilizes dilated convolutions for sequence processing, excellent for long-term dependencies in time series data.
-Recurrent Neural Networks (RNN)
-Processes sequential data, maintaining a 'memory' of past inputs; ideal for context-sensitive tasks but struggles with long sequences.
-Convolutional Neural Networks (CNN)
-Primarily for image processing, uses convolutional layers to automatically learn spatial hierarchies of features.
-Inception Time
-Adapts the Inception architecture for time series, combining convolutional layers of varying sizes for multi-scale feature learning.
+Temporal Convolutional Networks (TCN): Utilizes dilated convolutions for sequence processing, excellent for long-term dependencies in time series data.
+Recurrent Neural Networks (RNN): Processes sequential data, maintaining a 'memory' of past inputs; ideal for context-sensitive tasks but struggles with long sequences.
+Convolutional Neural Networks (CNN): Primarily for image processing, uses convolutional layers to automatically learn spatial hierarchies of features.
+Inception Time (IT): Adapts the Inception architecture for time series, combining convolutional layers of varying sizes for multi-scale feature learning.
 
 Contents
 ecg_data_handler.py: A Python module that includes the ECGDataHandler class. This class provides methods for reading ECG records from a specified directory, plotting ECG leads, and extracting basic features such as average amplitudes for each lead.
