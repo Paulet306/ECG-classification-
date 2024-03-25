@@ -1,4 +1,5 @@
 This repository contains a Python package and a Jupyter notebook designed to work with 12-lead ECG data from https://physionet.org/content/ptb-xl/1.0.3/
+
 The primary goal is to facilitate ECG data handling and classification of ECG signals. The ecg_data_handler.py module provides essential utilities for reading, plotting, and extracting features from ECG records, 
 while the 12LeadECGClassificationModel.ipynb notebook uses 4 fifferent classification model for ECG signals:
 
